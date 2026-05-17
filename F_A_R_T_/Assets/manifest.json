@@ -1,0 +1,12 @@
+{
+  "name": "F_A_R_T_",
+  "version_number": "1.0.2",
+  "website_url": "https://thunderstore.io/c/repo/",
+  "description": "Multiplayer fart mod with Huntsman detection / 敵にも聞こえる放屁MOD",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "nickklmao-MenuLib-2.5.3",
+    "nickklmao-REPOConfig-1.2.6",
+    "Zehs-REPOLib-4.0.3"
+  ]
+}
