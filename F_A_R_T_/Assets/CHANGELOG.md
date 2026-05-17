@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.3
+- Internal refactoring: Unified solution, project, and DLL names to 'F_A_R_T_'
+- Moved repository to GitHub (Public Open Source)
+- *Note: Your config file will be recreated due to the GUID update.*
+
+- 内部リファクタリング：ソリューション、プロジェクト、DLL名を「F_A_R_T_」に統一
+- GitHubリポジトリを公開（オープンソース化）
+- ※注意：GUID変更に伴い、設定ファイル（.cfg）が新しく再生成されます。
+
 ## 1.0.2
 - Fixed Harmony patch ID to match plugin GUID
 - HarmonyパッチIDをプラグインGUIDに合わせて修正
