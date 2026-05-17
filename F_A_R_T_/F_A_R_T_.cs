@@ -10,7 +10,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 
-[BepInPlugin("com.HalHally.fart_mod", "F.A.R.T.", "1.0.2")]
+[BepInPlugin("com.HalHally.f_a_r_t_", "F.A.R.T.", "1.0.3")]
 [BepInDependency("REPOLib", BepInDependency.DependencyFlags.HardDependency)]
 public class FartMod : BaseUnityPlugin
 {
@@ -36,7 +36,7 @@ public class FartMod : BaseUnityPlugin
         Logger = base.Logger;
         InitConfig();
         LoadAudioFiles();
-        new Harmony("com.HalHally.fart_mod").PatchAll();
+        new Harmony("com.HalHally.f_a_r_t_").PatchAll();
         FartNetworkEvent = new NetworkedEvent("FartEvent_UniqueKey", OnFartReceived);
     }
 
